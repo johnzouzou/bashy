@@ -1,4 +1,6 @@
 #!/bin/bash
+#command line function that looks up definition of word entered as a command line arg
+
 define(){
         t=$@
         for words in t
