@@ -1,4 +1,7 @@
 #!/bin/bash
+#looks up stock price and parses out information from google finance
+#works with price tags and company names
+#usage: bash autolookup.sh (company name)
 if [ $# -eq 0 ]
 then
 stocks="AAPL HAL LMT" ;
